@@ -16,7 +16,11 @@ public class testrun {
 		
 		MultipleTester mt = new MultipleTester();
 		
-		mt.testMultiples();
+		//mt.testMultiples();
+		
+		CheckerboardPattern cbp = new CheckerboardPattern();
+		
+		cbp.displayChecker();
 		
 		
 		
