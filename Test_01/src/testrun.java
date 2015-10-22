@@ -20,10 +20,15 @@ public class testrun {
 		
 		CheckerboardPattern cbp = new CheckerboardPattern();
 		
-		cbp.displayChecker();
+		//cbp.displayChecker();
 		
+		CircleValues cv = new CircleValues();
 		
+		//cv.showCircleValues();
 		
+		CharacterValue chrvalue = new CharacterValue();
+		
+		chrvalue.getCharacterValue();
 	}
 
 }
