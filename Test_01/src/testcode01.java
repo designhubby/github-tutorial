@@ -25,6 +25,20 @@ public class testcode01 {
 		Integer int3 = sgtest.getSingleGeneric();
 		System.out.println(int3);
 		
+		Number num1 = getNumber(value);
+		System.out.println(num1);
+		//Number num2 = getGenNumber(sgtest);
+		//System.out.println(num2);
+		
+		
+		
+	}
+	
+	public static Number getGenNumber(SingleGeneric<Number> sGsd){
+		return sGsd.getSingleGeneric();
+	}
+	public static Number getNumber(Number num){
+		return num;
 	}
 
 }

@@ -49,10 +49,11 @@ public class testrun {
 		//displayinvoice.generateInvoice();
 		
 		Employee emp1 = new Employee();
-		emp1.testseq();
+		//emp1.testseq();
 		
 		Employee emp2 = new Employee();
 		//emp2.testseq();
+		
 		
 	}
 
