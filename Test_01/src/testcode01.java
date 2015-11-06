@@ -19,11 +19,12 @@ public class testcode01 {
 		}
 		
 		Integer int1 = (Integer) ngtest.getValue();
-		System.out.println("\nfsafs" + int1);
+		System.out.println("\nngtest: " + int1);
 		String int2 = (String)gtest.getKey();
-		System.out.println(int2);
+		Integer int25 = (Integer) gtest.getValue();
+		System.out.println("gtest: " + int2 + " value " + int25);
 		Integer int3 = sgtest.getSingleGeneric();
-		System.out.println(int3);
+		System.out.println("sgtest: " + int3);
 		
 		Number num1 = getNumber(value);
 		System.out.println(num1);

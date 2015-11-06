@@ -54,7 +54,9 @@ public class testrun {
 		Employee emp2 = new Employee();
 		//emp2.testseq();
 		
+		HashMapTest hmt = new HashMapTest();
 		
+		hmt.testhm();
 	}
 
 }

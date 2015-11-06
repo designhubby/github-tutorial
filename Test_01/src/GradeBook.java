@@ -1,4 +1,6 @@
 import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 public class GradeBook {
@@ -36,10 +38,14 @@ public class GradeBook {
 		Scanner input = new Scanner(System.in);
 		String name = "";
 		int grade;
-		while(name != "-1"){
-			System.out.println("Please enter Name: ");
-			name= input.nextLine();
-			System.out.println("Please enter grade: ");
+		while(true){
+			System.out.println("\nPlease enter Name: ");
+			name= input.next();
+			if(name.equals("-1")){
+				break;
+			}
+			System.out.println("\nYou entered" + name);
+			System.out.println("\nPlease enter grade: ");
 			grade = input.nextInt();
 			hmap.put(name,grade);
 		}

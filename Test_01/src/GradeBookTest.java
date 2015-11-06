@@ -5,6 +5,8 @@ public class GradeBookTest {
 		// TODO Auto-generated method stub
 		GradeBook gb1= new GradeBook();
 		gb1.setGrade();
+		gb1.getAllGrades();
+		
 		
 	}
 
