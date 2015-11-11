@@ -1,5 +1,4 @@
 import java.util.*;
-import java.util.HashMap;
 import java.util.Map.Entry;
 
 public class HashMapTest {
@@ -21,6 +20,17 @@ public class HashMapTest {
 		
 		Collection<String> collectionCounter = hm1.values();
 		System.out.println("Collection Values: " + collectionCounter);
+		
+		Set<Integer> setcounter1 = hm1.keySet();
+		System.out.println("set counter1: " + setcounter1);
+		
+		Collection<String> collectionofstrings = hm1.values();
+		System.out.println("collection of string values: " + collectionofstrings);
+		
+		for(Map.Entry<Integer, String> counter1 : hm1.entrySet()){
+			System.out.println("Map Entryset of Keys: " + counter1.getKey() + " Map Entry Set of Values:  " + counter1.getValue());
+			
+		}
 		
 		
 	}
